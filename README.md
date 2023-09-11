@@ -1,7 +1,9 @@
-# BUCalendarGenerator
+# BUCalendarGenerator v1.0
 ---
+*Version 1.0 only supports FALL2023 Semester*
 ## Introduction
-This Google Chrome extension allows Boston Univeristy(BU) students to generate calendar file for their class schedule with just a click.
+This Google Chrome extension allows Boston Univeristy(BU) students to generate calendar file for their class schedule with just a click.<br>
+
 
 ## Instructions
 1. Open StudentLink and click **Current Schedule** Under **Academics**<br>
