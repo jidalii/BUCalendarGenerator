@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "BU Calendar Generator",
+  "version": "1.0",
+  "description": "Automatically generate the calendar file of your class schedule with just a click",
+  "host_permissions": ["https://www.bu.edu/link/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.bu.edu/link/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage", "activeTab","scripting"]
+}
